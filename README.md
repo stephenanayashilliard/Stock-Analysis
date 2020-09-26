@@ -297,9 +297,9 @@ Above is the portion of the code that was refractored.  The refractored code pro
 ##### The Refactored Run time for 2018
 [VBA Challenge 2018](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/VBA_Challenge_2018.png)
 
-
-
+The new runtimes were 0.453125 seconds for 2017 and 0.09375  seconds 2018.
 
 ## Summary
+
 ### Advantages and Disadvantages of Refactoring Code
 ### Comparison of the Advantages and Disadvantages between the Original and Refactored VBA Script.
