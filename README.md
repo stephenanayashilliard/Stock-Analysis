@@ -210,7 +210,7 @@ Because the client needs is often working with financial clients, the client req
 [Analysis for 2017](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Greenstock%202017.png)
 
 ##### Report Time for 2018
-{Analysis for 2018)}(https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Greenstock%202018.png)
+[Analysis for 2018](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Greenstock%202018.png)
 
 
 
