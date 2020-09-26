@@ -212,11 +212,87 @@ Because the client needs is often working with financial clients, the client req
 ##### Report Time for 2018
 [Analysis for 2018](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Greenstock%202018.png)
 
+As you can see the run times for 2017 and 2018 were 0.453125 seconds and 0.5859375 seconds respectively.  The client then asked if it would be possible to have the formula's run even faster.  This was especially important as more stock date will be added in the future.  To accomplice this,  The code would have to be refactored by switching the nesting order of the loops and using arrays.  
+
+#### The Refactored Code
+  'Activate data worksheet
+    Worksheets(yearValue).Activate
+    
+    'Get the number of rows to loop over
+    RowCount = Cells(Rows.Count, "A").End(xlUp).Row
+    
+    '1a) Create a ticker Index
+        
+        Dim tickerIndex As Integer
+        tickerIndex = 0
+    
+
+    '1b) Create three output arrays
+        
+        Dim tickerVolumes(11) As Long
+        Dim tickerStartingPrices(11) As Single
+        Dim tickerEndingPrices(11) As Single
+        
+        
+    '2a) Create a for loop to initialize the tickerVolumes to zero.
+    
+    For i = 0 To 11
+    tickerVolumes(i) = 0
+    
+    Next i
+    
+    ' If the next row’s ticker doesn’t match, increase the tickerIndex.
+    
+    '2b) Loop over all the rows in the spreadsheet.
+    For i = 2 To RowCount
+    
+    '3a) Increase volume for current ticker
+    tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value
+    
+
+    '3b) Check if the current row is the first row with the selected tickerIndex.
+    'If  Then
+     
+     If Cells(i - 1, 1).Value <> tickers(tickerIndex) Then
+        tickerStartingPrices(tickerIndex) = Cells(i, 6).Value
+    'End If
+    End If
+    
+  
+     
+        
+    '3c) check if the current row is the last row with the selected ticker
+    'If  Then
+     
+     If Cells(i + 1, 1).Value <> tickers(tickerIndex) Then
+        tickerEndingPrices(tickerIndex) = Cells(i, 6).Value
+     
+    '3d Increase the tickerIndex.
+
+    tickerIndex = tickerIndex + 1
+            
+            
+    'End If
+    End If
+
+    
+    Next i
+    
+    '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
+    
+    For i = 0 To 11
+    
+        
+    Worksheets("All Stocks Analysis").Activate
+    tickerIndex = 1
+    Cells(i + 4, 1).Value = tickers(i)
+    Cells(i + 4, 2).Value = tickerVolumes(i)
+    Cells(i + 4, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
+
+Above is the portion of the code that was refractored.  The refractored code produced the following run times:
 
 
 
-
-   
 ## Summary
 ### Advantages and Disadvantages of Refactoring Code
 ### Comparison of the Advantages and Disadvantages between the Original and Refactored VBA Script.
