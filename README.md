@@ -291,6 +291,13 @@ As you can see the run times for 2017 and 2018 were 0.453125 seconds and 0.58593
 
 Above is the portion of the code that was refractored.  The refractored code produced the following run times:
 
+##### The Refactored Run time for 2017
+[VBA_Challenge_2017](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/VBA_Challenge_2017.png)
+
+##### The Refactored Run time for 2018
+[VBA Challenge 2018](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/VBA_Challenge_2018.png)
+
+
 
 
 ## Summary
