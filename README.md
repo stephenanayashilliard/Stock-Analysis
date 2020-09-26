@@ -300,6 +300,7 @@ Above is the portion of the code that was refractored.  The refractored code pro
 The new runtimes were 0.453125 seconds for 2017 and 0.09375  seconds 2018.
 
 ## Summary
+The final project did provide the automated analysis the client requested.   However, when you compare the original programing to the refactored program, the process the refactored report for 2017 was actually slight over 7 seconds slower than the original program.  Only the refractored 2018 report showed any increase in efficiency.
 
 ### Advantages and Disadvantages of Refactoring Code
 ### Comparison of the Advantages and Disadvantages between the Original and Refactored VBA Script.
