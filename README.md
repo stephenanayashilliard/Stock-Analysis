@@ -206,8 +206,13 @@ End Sub
 
 Because the client needs is often working with financial clients, the client requested to the ability to be able to see how fast the program was producing the desired data.  A program measuring the results was creatied with the following outcomes.
 
-##### For Year 2017
+##### Report Time for 2017
 [Analysis for 2017](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Greenstock%202017.png)
+
+##### Report Time for 2018
+{Analysis for 2018)}(https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Greenstock%202018.png)
+
+
 
 
 
