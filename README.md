@@ -199,10 +199,10 @@ End Sub
 Because the client needs is often working with financial clients, the client requested to the ability to be able to see how fast the program was producing the desired data.  A program measuring the results was creatied with the following outcomes.
 
 ##### Report Time for 2017
-[Analysis for 2017](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Greenstock%202017.png)
+
 
 ##### Report Time for 2018
-[Analysis for 2018](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Greenstock%202018.png)
+
 
 As you can see the run times for 2017 and 2018 were 0.453125 seconds and 0.5859375 seconds respectively.  The client then asked if it would be possible to have the formula's run even faster.  This was especially important as more stock date will be added in the future.  To accomplice this,  The code would have to be refactored by switching the nesting order of the loops and using arrays.  
 
@@ -283,12 +283,12 @@ As you can see the run times for 2017 and 2018 were 0.453125 seconds and 0.58593
 Above is the portion of the code that was refractored.  The refractored code produced the following run times:
 
 ##### The Refactored Run time for 2017
-[VBA_Challenge_2017](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/VBA_Challenge_2017.png)
+
 
 ##### The Refactored Run time for 2018
-[VBA Challenge 2018](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/VBA_Challenge_2018.png)
 
-The new runtimes were 0.453125 seconds for 2017 and 0.09375  seconds 2018.
+
+The new runtimes were 0.453125 seconds for 2017 and 0.09375  seconds for 2018.
 
 ## Summary
 The final project did provide the automated analysis the client requested.   However, when you compare the original programing to the refactored program, the process the refactored report for 2017 was actually slight over 7 seconds slower than the original program.  Only the refractored 2018 report showed any increase in efficiency.
