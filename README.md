@@ -6,21 +6,25 @@ My client, Steve, needed help with his analysis of what stocks were worth invest
 ## Results
 When I began too code for my client's project, I initially started out writing a simple if/then statement so that my client could run an analysis specifically analysing DAQO stocks based on the year, their total daily volume and the stock's annual return.
    
-pic here
+![DQ_Analysis](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/DQ%20Analyis.png)
 
 The analysis revealed that "DAQO" had been performing poorly over the last year. The client requested the ability to analyse all stocks over multiple years. To accomplish this  the program refered to as "AllstockAnalysis" was created.
 
 #### Sub AllStocksAnalyis
 
-pic here 
+![All_Stocks_Analysis](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/AllstocksAnalyis%201.png)
 
 To further aid the client's ability to analyse the data easily, further coding was done to allow for formatting the data.
 
 #### Formatting the Data
 
-pic here
+![formatting](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/formatting.png)
         
-Because the client is often working with financial clients in face to face meetings, the client requested the ability to be able to see how fast the program was producing the desired data.  A program measuring the results was created with the following outcomes.
+Because the client is often working with financial clients in face to face meetings, the client requested the ability to be able to see how fast the program was producing the desired data. The following subroutine was added. 
+
+![Timer](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/AllstocksAnalyisandtimer.png)
+
+The program measuring the results was created with the following outcomes.
 
 ##### Report Time for 2017
 ![Original Report Time 2017](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Greenstock%202017.png)
@@ -32,8 +36,7 @@ As you can see the run times for 2017 and 2018 were .484375 seconds and .5859375
 
 #### The Refactored Code
 
-pic here   
-
+![Refactored_Code](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Refactored%20code.png)  
 
 ##### The Refactored Run time for 2017
 ![Refactered Run Time 2017](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/VBA_Challenge_2017.png)
