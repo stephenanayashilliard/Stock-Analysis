@@ -5,6 +5,8 @@ My client, Steve, needed help with his analysis of what stocks were worth invest
 
 ## Results
 When I began too code for my client's project, I initially started out writing a simple if/then statement so that my client could run an analysis specifically analysing DAQO stocks based on the year, their total daily volume and the stock's annual return.
+
+#### DQ Analysis
    
 ![DQ_Analysis](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/DQ%20Analyis.png)
 
@@ -19,7 +21,9 @@ To further aid the client's ability to analyse the data easily, further coding w
 #### Formatting the Data
 
 ![formatting](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/formatting.png)
-        
+
+#### Timer
+
 Because the client is often working with financial clients in face to face meetings, the client requested the ability to be able to see how fast the program was producing the desired data. The following subroutine was added. 
 
 ![Timer](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/AllstocksAnalyisandtimer.png)
