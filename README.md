@@ -3,6 +3,11 @@
 ## Project Overview
 My client, Steve, needed help with his analysis of what stocks were worth investing in.  Although our client is well versed in the use of Excel, it was determined that using VBA and automating the anaylsis process would better serve his purposes.
 
+## Resourses
+ - Data Source:
+ - Excel
+ - VBA (Visual Basic)
+
 ## Results
 When I began too code for my client's project, I initially started out writing a simple if/then statement so that my client could run an analysis specifically analysing DAQO stocks based on the year, their total daily volume and the stock's annual return.
 
