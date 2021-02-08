@@ -4,7 +4,7 @@
 My client, Steve, needed help with his analysis of what stocks were worth investing in.  Although our client is well versed in the use of Excel, it was determined that using VBA and automating the anaylsis process would better serve his purposes.
 
 ## Resourses
- - Data Source:
+ - Data Source: [Green_stocks.xlsm](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/green_stocks.xlsm)
  - Excel
  - VBA (Visual Basic)
 
