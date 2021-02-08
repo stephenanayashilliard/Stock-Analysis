@@ -13,45 +13,45 @@ When I began too code for my client's project, I initially started out writing a
 
 #### DQ Analysis
    
-![DQ_Analysis](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/DQ%20Analyis.png)
+![DQ_Analysis](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Resources/DQ%20Analyis.png)
 
 The analysis revealed that "DAQO" had been performing poorly over the last year. The client requested the ability to analyse all stocks over multiple years. To accomplish this  the program refered to as "AllstockAnalysis" was created.
 
 #### Sub AllStocksAnalyis
 
-![All_Stocks_Analysis](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/AllstocksAnalyis%201.png)
+![All_Stocks_Analysis](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Resources/AllstocksAnalyis%201.png)
 
 To further aid the client's ability to analyse the data easily, further coding was done to allow for formatting the data.
 
 #### Formatting the Data
 
-![formatting](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/formatting.png)
+![formatting](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Resources/formatting.png)
 
 #### Timer
 
 Because the client is often working with financial clients in face to face meetings, the client requested the ability to be able to see how fast the program was producing the desired data. The following subroutine was added. 
 
-![Timer](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/AllstocksAnalyisandtimer.png)
+![Timer](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Resources/AllstocksAnalyisandtimer.png)
 
 The program measuring the results was created with the following outcomes.
 
 ##### Report Time for 2017
-![Original Report Time 2017](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Greenstock%202017.png)
+![Original Report Time 2017](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Resources/Greenstock%202017.png)
 
 ##### Report Time for 2018
-![Original Report Time 2018](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Greenstock%202018.png)
+![Original Report Time 2018](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Resources/Greenstock%202018.png)
 
 As you can see the run times for 2017 and 2018 were .484375 seconds and .5859375 seconds respectively.  The client then asked if it would be possible to have the formulas report their results even faster.  This is especially important as more stock's information will be added in the future.  To accomplice this,  the code needed to be refactored by switching the nesting order of the loops and using arrays.  
 
 #### The Refactored Code
 
-![Refactored_Code](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Refactored%20code.png)  
+![Refactored_Code](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Resources/Refactored%20code.png)  
 
 ##### The Refactored Run time for 2017
-![Refactered Run Time 2017](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/VBA_Challenge_2017.png)
+![Refactered Run Time 2017](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Resources/VBA_Challenge_2017.png)
 
 ##### The Refactored Run time for 2018
-![Refacterd Run Time 2018](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/VBA_Challenge_2018.png)
+![Refacterd Run Time 2018](https://github.com/stephenanayashilliard/Stock-Analysis/blob/master/Resources/VBA_Challenge_2018.png)
 
 The new runtimes were .2109375 seconds for 2017 and .0859375  seconds for 2018.
 
